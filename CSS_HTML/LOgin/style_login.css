@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(to left, #3d8ea7,#4fcd61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._khung_lon_{
+    position: relative;
+    margin: 50px auto;
+    width: 800px;
+    height: 500px;
+    border-radius: 15px;
+    border: 2px solid #5d5d5d;
+    background:whitesmoke;
+}
+
+._khung_phai_{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0px;
+}
+
+._khung_phai_ img{
+    object-fit: cover ;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius:13px ;
+    border-top-right-radius: 13px;
+} 
+
+._khung_trai_{
+    position: absolute;
+    font-family:'Poppins' ;
+    width: 50%;
+    height: 100%;
+    padding-left:5% ;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+._khung_trai_ h2{
+    margin-top: 60px;
+    width: 100%;
+    height: 45px;
+    font-weight: bolder;
+    
+}
+._khung_trai_ p{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: #919baa;
+}
+._khung_trai_ input{
+    display : block !important;
+    margin-top: 5px;
+    height: 8%;
+    width: 90%;
+    border: none;
+    border-bottom:1px solid #7c6b6b;
+    transition: 0.5s;
+}
+
+._khung_trai_ input:focus{
+    display : block !important;
+    border: 2px solid #63ac87 !important;
+}
+
+

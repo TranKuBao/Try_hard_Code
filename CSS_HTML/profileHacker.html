@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Hacker User Profile</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00FF41;
+            font-family: 'Courier New', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .terminal-container {
+            width: 500px;
+            background-color: rgba(0,0,0,0.8);
+            border: 2px solid #00FF41;
+            padding: 20px;
+            box-shadow: 0 0 15px #00FF41;
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #00FF41;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="%2300FF41"><circle cx="50" cy="50" r="45"/></svg>');
+            background-size: cover;
+            margin: 0 auto 20px;
+        }
+        .profile-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .cmd-input {
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #00FF41;
+            color: #00FF41;
+            font-family: 'Courier New', monospace;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .cmd-input::before {
+            content: '> ';
+            color: #00FF41;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .info-item {
+            background-color: rgba(0,255,65,0.1);
+            padding: 10px;
+            border-left: 2px solid #00FF41;
+        }
+        .terminal-footer {
+            text-align: center;
+            font-size: 0.8em;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="avatar"></div>
+        
+        <div class="profile-info">
+            <h2>AGENT: SHADOW_WRAITH</h2>
+            <p>SECURITY CLEARANCE: LEVEL 7</p>
+        </div>
+        
+        <div class="info-grid">
+            <div class="info-item">
+                <strong>USERNAME</strong>
+                <p>shadow_wraith</p>
+            </div>
+            <div class="info-item">
+                <strong>RANK</strong>
+                <p>CYBER ARCHITECT</p>
+            </div>
+            <div class="info-item">
+                <strong>JOINED</strong>
+                <p>2022-07-15</p>
+            </div>
+            <div class="info-item">
+                <strong>STATUS</strong>
+                <p>ACTIVE</p>
+            </div>
+        </div>
+
+        <input type="text" class="cmd-input" placeholder="Enter system command...">
+        
+        <div class="terminal-footer">
+            <p>SECURE SYSTEM v3.7.2 | ENCRYPTED PROFILE</p>
+        </div>
+    </div>
+
+    <script>
+        const cmdInput = document.querySelector('.cmd-input');
+        
+        cmdInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                const command = this.value.trim().toLowerCase();
+                let response = '';
+
+                switch(command) {
+                    case 'help':
+                        response = 'Available commands: status, info, clear';
+                        break;
+                    case 'status':
+                        response = 'SYSTEM: All systems operational';
+                        break;
+                    case 'info':
+                        response = 'AGENT: SHADOW_WRAITH | LEVEL 7 ACCESS';
+                        break;
+                    case 'clear':
+                        this.value = '';
+                        return;
+                    default:
+                        response = `Unknown command: ${command}`;
+                }
+
+                alert(response);
+                this.value = '';
+            }
+        });
+    </script>
+</body>
+</html>

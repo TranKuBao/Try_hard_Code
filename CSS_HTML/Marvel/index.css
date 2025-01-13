@@ -1,0 +1,145 @@
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-family:Merriweather ;
+    margin:0px;
+    position: static;
+    background: #212121;
+
+}
+.nagivation{
+    padding-top: 10px;
+}
+
+.logo img{
+    max-width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+    max-width: 100%;
+    width: 100%;
+   height: 100%;
+}
+#menu{
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:6px 0px 16px 0px
+}
+.menu_main{
+    list-style-type: none;
+    margin: 0;
+
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu_item{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.menu_item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+}
+.menu_item :hover{
+    color: white;
+    background-color: #d81414
+}
+
+.introduce{
+    padding: 30px 0 100px;
+    margin: auto;
+    background: url(https://wallpapercave.com/wp/wp3850253.jpg);
+    text-align: center;
+    background-size: 100% 100%;
+
+}
+.introduce_caption, .introduce_more {
+    font-family: 'Anton', sans-serif;
+    font-size: 90px;
+    color:white;
+    opacity: 0.75;
+}
+.introduce_content{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: aliceblue;
+    opacity: 0.85;
+}
+
+.introduce_more {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color:white;
+    opacity: 0.8;
+    padding-left: auto;
+    padding-right: auto;
+}
+.introduce_more a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+.introduce_more :hover{
+    color: white;
+    background-color: #d81414
+}
+.movie_title{
+    position:absolute;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin: 20px 30px;
+    border:2px solid red;
+    border-radius: 8px;
+    border: 1px 1px  1px 1px;
+}
+.clearfix{
+    clear: both;
+    content: " ";
+    display: table;
+    width: 50px;
+    height: 120px;
+}
+.phase{
+
+    padding: 30px 30px;
+    float: left;
+    width: 20%
+    
+}
+
+.phase_movie{
+    border: 1px solid #ccc;
+}
+.phase_movie img{
+    width: 100%;
+    height: auto
+}
+.desc{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color:white;
+    opacity: 0.7;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+
+
+
+

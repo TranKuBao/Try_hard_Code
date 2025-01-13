@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Interface</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000;
+            color: #0f0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            text-align: center;
+            text-shadow: 0 0 10px #0f0, 0 0 20px #0f0;
+        }
+
+        .image-display {
+            margin-bottom: 20px;
+        }
+
+        .image-display img {
+            max-width: 400px;
+            border: 2px solid #0f0;
+            box-shadow: 0 0 20px #0f0;
+        }
+
+        .terminal {
+            width: 100%;
+            max-width: 600px;
+            background: #111;
+            border: 2px solid #0f0;
+            padding: 10px;
+            box-shadow: 0 0 10px #0f0;
+        }
+
+        .output {
+            height: 200px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #000;
+            color: #0f0;
+            border: 1px solid #0f0;
+            font-size: 14px;
+        }
+
+        .input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            background: #000;
+            border: 1px solid #0f0;
+            color: #0f0;
+            font-size: 14px;
+            outline: none;
+            box-shadow: 0 0 5px #0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>HACKER TERMINAL</h1>
+        </div>
+        <div class="image-display">
+            <img id="hackerImage" src="https://via.placeholder.com/400x300" alt="Hacker Image">
+        </div>
+        <div class="terminal">
+            <div id="output" class="output"></div>
+            <input type="text" id="commandInput" class="input" placeholder="Enter a command...">
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const inputField = document.getElementById('commandInput');
+            const outputDiv = document.getElementById('output');
+            const image = document.getElementById('hackerImage');
+
+            inputField.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter') {
+                    const command = inputField.value.trim();
+                    if (command) {
+                        outputDiv.innerHTML += `<div>> ${command}</div>`;
+                        handleCommand(command);
+                        inputField.value = '';
+                        outputDiv.scrollTop = outputDiv.scrollHeight; // Scroll to the bottom
+                    }
+                }
+            });
+
+            function handleCommand(command) {
+                switch (command.toLowerCase()) {
+                    case 'clear':
+                        outputDiv.innerHTML = '';
+                        break;
+                    case 'show image':
+                        image.src = 'https://via.placeholder.com/400x300?text=New+Image';
+                        appendOutput('Image updated.');
+                        break;
+                    case 'hello':
+                        appendOutput('Hello, Hacker!');
+                        break;
+                    default:
+                        appendOutput(`Unknown command: ${command}`);
+                }
+            }
+
+            function appendOutput(message) {
+                outputDiv.innerHTML += `<div>${message}</div>`;
+            }
+        });
+    </script>
+</body>
+</html>
