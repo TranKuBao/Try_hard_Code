@@ -1,0 +1,55 @@
+{
+    "accumulator": null,
+    "annotation_jobs": [
+        "OEm8u0u4lJJl4RiOjsPA/8Z6kwIikYWJtJMW4IWs1"
+    ],
+    "batches": [],
+    "camera": null,
+    "created": {
+        "_seconds": 1700575681,
+        "_nanoseconds": 610000000
+    },
+    "datasets": [
+        "OEm8u0u4lJJl4RiOjsPA"
+    ],
+    "extension": "png",
+    "hashes": [
+        "e786fe9c0892c8fa9b5b0847e429e79a"
+    ],
+    "height": 694,
+    "id": "qDISz7T74tpbhQZeADPi",
+    "label": [
+        "motherboard"
+    ],
+    "labelClasses": [
+        "Motherboard"
+    ],
+    "labels": {
+        "Motherboard": [
+            "motherboard"
+        ]
+    },
+    "metadata": {
+        "no": "metadata"
+    },
+    "name": "motherboard59.png",
+    "owner": "Umua126c9wW0Xoh9M1mS1LJZd9e2",
+    "projects": [
+        "OEm8u0u4lJJl4RiOjsPA"
+    ],
+    "r": 0.7733333333333333,
+    "split": "train",
+    "split.OEm8u0u4lJJl4RiOjsPA": "train",
+    "tags": [
+        "OEm8u0u4lJJl4RiOjsPA:status:annotated"
+    ],
+    "updated": {
+        "_seconds": 1700575681,
+        "_nanoseconds": 610000000
+    },
+    "updatedDate": "Nov 21, 2023",
+    "updatedTime": "9:08PM",
+    "updatedTimezone": "+07:00",
+    "uploader": "Umua126c9wW0Xoh9M1mS1LJZd9e2",
+    "width": 682
+}
