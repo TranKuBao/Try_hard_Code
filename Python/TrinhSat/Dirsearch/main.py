@@ -7,10 +7,8 @@ def check_url(base_url, path):
     url = f"{base_url}/{path}"
     try:
         response = requests.get(url)
-        if str(response.status_code)[0] == '2':
-            print(Fore.GREEN+f"[+] Found: {path}"+Fore.WHITE)
-        else:
-           print(Fore.RED+f"[-] Not found: {path} (Status code: {response.status_code})"+Fore.WHITE)
+        if str(response.status_code)[0] == '2' or str(response.status_code)[0] == '3':
+            print(Fore.GREEN+f"[+] Found: {path} (Status code: {response.status_code})"+Fore.WHITE)
     except requests.RequestException as e:
         print(f"[!] Error with URL {path}: {e}")
 
@@ -30,13 +28,13 @@ def scan_urls(base_url, wordlist_file, threads=5):
 
 if __name__ == "__main__":
     # URL gốc mà bạn muốn quét
-    base_url = "http://localhost:8888"  # Thay URL của bạn vào đây
+    base_url = "http://159.65.13.232:8081/"  # Thay URL của bạn vào đây
     
-    # File chứa các đường dẫn cần quét
-    wordlist_file = "D:\TryHardCode\Python\TrinhSat\Dirsearch\dicc.txt"  # Thay file wordlist của bạn vào đây
+    # File chứa các đường dẫn cần quét 
+    wordlist_file = "D:\Try_hard_Code\Python\TrinhSat\Dirsearch\dicc.txt"  # Thay file wordlist của bạn vào đây
     
     # Số lượng thread chạy song song
-    threads = 10
+    threads = 50
     
     # Bắt đầu quá trình quét
     scan_urls(base_url, wordlist_file, threads)
