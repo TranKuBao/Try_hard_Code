@@ -305,6 +305,31 @@
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-59" value="Trả về thông tin khai thác" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="550" y="608" width="160" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-61" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="pLjEZRmjEA9tEXpbA_yD-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="550" as="sourcePoint" />
+            <mxPoint x="-80" y="303" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-62" value="Trả về dữ liệu đánh cắp và cập nhật thông tin về mục tiêu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="608" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-63" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.068;entryY=1.085;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pLjEZRmjEA9tEXpbA_yD-4" target="pLjEZRmjEA9tEXpbA_yD-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="680" as="sourcePoint" />
+            <mxPoint x="470" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="690" />
+              <mxPoint x="-92" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-66" value="Trả về thông tin trạng thái mục tiêu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="668" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
