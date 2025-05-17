@@ -16,6 +16,15 @@
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-4" value="Advance - Attack" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="440" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-5" value="Nmap, Wappalyzer,&lt;div&gt;Whatweb, Wpscan&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-6" value="Pocsuite3" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-7" value="Metasploit" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
