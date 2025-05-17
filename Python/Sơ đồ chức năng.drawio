@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Page-1" id="tOjrZ0yXGQ1r4D5i2jOd">
-    <mxGraphModel dx="2131" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2451" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -293,8 +293,8 @@
             <mxPoint x="70" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pLjEZRmjEA9tEXpbA_yD-55" value="Chọn target mục tiêu và các tham số có liên quan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="25" y="490" width="290" height="30" as="geometry" />
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-55" value="Chọn target mục tiêu đã chiếm quyền điều khiển và các tham số có liên quan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="490" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-57" value="Cập nhật mục tiêu bị chiếm quyền" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="428" width="200" height="30" as="geometry" />
