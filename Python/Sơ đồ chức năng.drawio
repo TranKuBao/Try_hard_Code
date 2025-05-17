@@ -11,10 +11,10 @@
           <mxGeometry x="360" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-3" value="Exploit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="450" width="120" height="80" as="geometry" />
+          <mxGeometry x="365" y="410" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-4" value="Advance - Attack" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="590" width="120" height="80" as="geometry" />
+          <mxGeometry x="360" y="630" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-5" value="Nmap, Wappalyzer,&lt;div&gt;Whatweb, Wpscan&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="60" width="120" height="40" as="geometry" />
@@ -166,6 +166,31 @@
         </mxCell>
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-37" value="Xuất báo cáo về mục tiêu được quét" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="218" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pLjEZRmjEA9tEXpbA_yD-6" target="pLjEZRmjEA9tEXpbA_yD-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="490" as="sourcePoint" />
+            <mxPoint x="470" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-39" value="Lấy Poc Khai thác" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pLjEZRmjEA9tEXpbA_yD-10" target="pLjEZRmjEA9tEXpbA_yD-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="sourcePoint" />
+            <mxPoint x="470" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="400" />
+              <mxPoint x="410" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-41" value="Chọn mục tiêu và các tham số tấn công" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="378" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
