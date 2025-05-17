@@ -154,6 +154,19 @@
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-35" value="Kết quả về thông tin quét lỗ hỗng trên mục tiêu" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="258" width="270" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pLjEZRmjEA9tEXpbA_yD-2" target="pLjEZRmjEA9tEXpbA_yD-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="430" as="sourcePoint" />
+            <mxPoint x="470" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="240" />
+              <mxPoint x="20" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-37" value="Xuất báo cáo về mục tiêu được quét" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="218" width="220" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
