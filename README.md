@@ -5,6 +5,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 nano ~/.zshrc   => tìm ZSH_THEME="robbyrussell"   và đổi thành => ZSH_THEME="agnoster"
 
+#cài thêm gợi ý:
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+tìm và thay trong ~/.zshrc
+
+plugins=(git zsh-autosuggestions)
+
+source ~/.zshrc
 
 #cài giao diện cho vps linux
 
