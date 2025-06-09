@@ -157,6 +157,12 @@
         <mxCell id="ZRx-7xuwrFsrE9odG7vh-7" value="resolution_status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="ZRx-7xuwrFsrE9odG7vh-1" vertex="1">
           <mxGeometry y="180" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="nB-DWeYdKs_0aZlTLEHo-4" value="id người dùng/ roles" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="350" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nB-DWeYdKs_0aZlTLEHo-5" value="mức độ đã khai thác" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="378" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
