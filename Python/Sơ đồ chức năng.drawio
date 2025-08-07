@@ -334,12 +334,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="x9pAZ04MZLVLazjgMzSo" name="Page-2">
-    <mxGraphModel dx="1042" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="1634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-1" value="Hệ thống hỗ trợ tác chiến ứng dụng web" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="360" y="-20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-2" value="Module trinh sát mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
@@ -374,10 +374,10 @@
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-12" value="Module thu thập thông tin Wpscan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="60" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-13" value="Hệ thống hỗ trợ tác chiến ứng dụng web" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-13" value="Module&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="500" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-14" value="Hệ thống hỗ trợ tác chiến ứng dụng web" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-14" value="Module" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="500" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-15" value="Module&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
