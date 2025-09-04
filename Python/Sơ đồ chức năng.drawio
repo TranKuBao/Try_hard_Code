@@ -678,12 +678,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DcIyfV5_LcaMWdrHGx9f" name="Kiến trúc hệ thống">
-    <mxGraphModel dx="1892" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2239" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SA8sDd1yaEt0ixCp54My-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="40" width="1140" height="480" as="geometry" />
+        <mxCell id="UDhEbBsx5ZAD-hAcE6DK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="40" width="1145" height="490" as="geometry" />
         </mxCell>
         <mxCell id="SA8sDd1yaEt0ixCp54My-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="500" y="50" width="340" height="450" as="geometry" />
@@ -766,9 +766,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OjAx9BdhVXY4pAY63I9P-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="SA8sDd1yaEt0ixCp54My-16" target="SA8sDd1yaEt0ixCp54My-4">
+        <mxCell id="OjAx9BdhVXY4pAY63I9P-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.394;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="SA8sDd1yaEt0ixCp54My-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="380" as="sourcePoint" />
+            <mxPoint x="390" y="227" as="sourcePoint" />
             <mxPoint x="520" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
