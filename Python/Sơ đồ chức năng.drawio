@@ -712,7 +712,7 @@
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-7" value="Pwncat&lt;div&gt;Weevely&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="790" y="580" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pLjEZRmjEA9tEXpbA_yD-10" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-10" value="Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-100" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-11" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="pLjEZRmjEA9tEXpbA_yD-10" edge="1">
