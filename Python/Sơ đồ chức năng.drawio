@@ -13,7 +13,7 @@
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-3" value="Exploit" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="410" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pLjEZRmjEA9tEXpbA_yD-4" value="RCE&lt;div&gt;Manager&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="pLjEZRmjEA9tEXpbA_yD-4" value="Shell&lt;div&gt;Manager&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="590" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pLjEZRmjEA9tEXpbA_yD-5" value="Nmap, Wappalyzer,&lt;div&gt;Dirsearch, Wpscan&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
