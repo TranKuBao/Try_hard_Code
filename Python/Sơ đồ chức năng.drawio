@@ -670,8 +670,8 @@
         <mxCell id="m42u42oKmzaKk3ddCRLh-31" value="4. RCE request &amp;amp; Post-Exploit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;textShadow=1;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="407" y="340" width="173" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m42u42oKmzaKk3ddCRLh-33" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="439.5" y="380" width="70" height="30" as="geometry" />
+        <mxCell id="m42u42oKmzaKk3ddCRLh-33" value="Response of target" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="414.5" y="380" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m42u42oKmzaKk3ddCRLh-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="m42u42oKmzaKk3ddCRLh-2" target="Y9TM6UEDfqVRZ2n9AVOa-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
