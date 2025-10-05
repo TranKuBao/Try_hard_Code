@@ -4,55 +4,55 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-1" value="Hệ thống hỗ trợ tác chiến ứng dụng web" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-1" value="Hệ thống hỗ trợ tác chiến ứng dụng web" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="360" y="10" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-2" value="Module trinh sát mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-2" value="Trinh sát mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-3" value="Module quản lý shell" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-3" value="Quản lý shell" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="480" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-4" value="Module thu thập thông tin Wappalyzer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-4" value="Module xác định công nghệ mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-5" value="Module thu thập thông tin" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-5" value="&lt;div&gt;Khai thác&lt;/div&gt;&lt;div&gt;Nâng cao&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="680" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-6" value="Module xác thực và khai thác mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-6" value="Xác thực và khai thác mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="240" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-8" value="Module Take Shell target with POCs&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-8" value="Module Shell target with POCs&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-9" value="Module verify target POCs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-9" value="Module verify target with POCs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="260" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-10" value="Module thu thập thông tin Dirsearch" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-10" value="Module dò quét đường dẫn mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-11" value="Module thu thập thông tin Nmap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-11" value="Module dò quét mạng" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-12" value="Module thu thập thông tin Wpscan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-12" value="Module dò quét mục tiêu Wordpress" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-14" value="Module tương tác shell" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-14" value="Module tương tác shell" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="500" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-15" value="Module khởi động Shell" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-15" value="Module khởi động Shell" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="500" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-16" value="Module Attack target with POCs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-16" value="Module Attack target with POCs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="260" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-24" value="Module check database target" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-24" value="&lt;div&gt;Module tương tác cơ sở dữ  liêu&amp;nbsp;&lt;/div&gt;&lt;div&gt;mục tiêu&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="700" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-25" value="Module download file in target" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-25" value="Module tải file từ mục tiêu về" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="700" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-26" value="Module upload file in target" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-26" value="Module tải  file lên mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="700" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-27" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2gu_CQuhYfiC-o3h5LZ_-2" edge="1">
@@ -178,6 +178,35 @@
             <mxPoint x="20" y="380" as="sourcePoint" />
             <mxPoint x="470" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-1" value="Module dò quét sâu mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="20" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="20" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-3" target="2gu_CQuhYfiC-o3h5LZ_-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="470" />
+              <mxPoint x="220" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-3" value="Module cập nhật POCs&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-5" target="2gu_CQuhYfiC-o3h5LZ_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-5" value="Module tìm kiếm file nâng cao" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
