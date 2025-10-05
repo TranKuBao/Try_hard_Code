@@ -1,16 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="28.2.5" pages="6">
   <diagram id="x9pAZ04MZLVLazjgMzSo" name="Page-2">
-    <mxGraphModel dx="1426" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-1" value="&lt;div&gt;Hệ thống hỗ trợ tác chiến&amp;nbsp;&lt;/div&gt;&lt;div&gt;ứng dụng web&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="360" y="10" width="120" height="60" as="geometry" />
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-1" value="&lt;div&gt;Hệ thống hỗ trợ tác chiến&amp;nbsp;&lt;/div&gt;&lt;div&gt;ứng dụng web&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-2" value="&lt;div&gt;Trinh sát&amp;nbsp;&lt;/div&gt;&lt;div&gt;mục tiêu&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-3" value="Quản lý shell" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="2gu_CQuhYfiC-o3h5LZ_-3" value="&lt;div&gt;Quản lý&lt;/div&gt;&lt;div&gt;mục tiêu&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="480" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-4" value="Module xác định công nghệ mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -68,6 +68,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="90" as="sourcePoint" />
             <mxPoint x="520" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="90" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="2gu_CQuhYfiC-o3h5LZ_-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="2gu_CQuhYfiC-o3h5LZ_-6" edge="1">
@@ -207,6 +210,62 @@
         </mxCell>
         <mxCell id="LTI2JBkvP5prtRW2h55y-5" value="Module tìm kiếm file nâng cao" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="700" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-7" target="2gu_CQuhYfiC-o3h5LZ_-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="90" />
+              <mxPoint x="540" y="90" />
+              <mxPoint x="540" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-7" target="LTI2JBkvP5prtRW2h55y-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="140" />
+              <mxPoint x="850" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-7" value="&lt;div&gt;Kết quả&amp;nbsp;&lt;/div&gt;&lt;div&gt;và báo cáo&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="870" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-9" value="&lt;div&gt;Module hiển thị&amp;nbsp;&lt;/div&gt;&lt;div&gt;kết quả&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-10" target="LTI2JBkvP5prtRW2h55y-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="300" />
+              <mxPoint x="850" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-10" value="&lt;div&gt;Module tạo&amp;nbsp;&lt;/div&gt;&lt;div&gt;báo cáo&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-11" target="LTI2JBkvP5prtRW2h55y-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="850" y="390" />
+              <mxPoint x="850" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-11" value="&lt;div&gt;Module tải&amp;nbsp;&lt;/div&gt;&lt;div&gt;báo cáo&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="LTI2JBkvP5prtRW2h55y-18" target="2gu_CQuhYfiC-o3h5LZ_-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+              <mxPoint x="460" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LTI2JBkvP5prtRW2h55y-18" value="Module giám sát mục tiêu" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
