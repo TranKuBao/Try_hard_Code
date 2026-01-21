@@ -1,0 +1,6 @@
+
+python-Wappalyzer
+setuptools
+request
+python-nmap    
+colorama
